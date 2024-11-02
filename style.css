@@ -1,0 +1,28 @@
+* * {
+    margin: 0;
+
+  
+}
+
+body{background-position: 33%;
+    background:url("ccaf300c-dc5b-4858-b068-850a0d52fbc9.jpg");
+background-size: cover;}
+
+/* Estilo do botão */
+.botao-redondo {
+    position: absolute;
+    right: 20px; /* Ajuste a distância do lado direito */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #c7af62; /* Cor de fundo rosa */
+    color: white; /* Cor do símbolo */
+    border: none;
+    border-radius: 50%; /* Torna o botão redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
